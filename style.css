@@ -99,15 +99,14 @@
     font-family: "Roboto condensed";
     font-size: 20px;
     margin-left: 3rem;
+    max-width: max-content;
   }
 
   .your-message {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-radius: 5px 5px 5px 5px;
     height: 100px;
-    width: 500px;
   }
 
   .header-box p {
@@ -128,6 +127,10 @@
     flex-direction: column;
     min-height: 35rem;
   }
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   main h3 {
     font-size: 36px;
@@ -142,11 +145,6 @@
   main h4 {
     font-family: "Roboto condensed";
     font-size: 24px;
-  }
-
-  .contact-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 
   .exhibition-spaces {
@@ -243,6 +241,24 @@
     align-items: center;
     padding: 2rem;
   }
+
+  .green-box2 {
+    background-color: hwb(49 29% 45% / 0.5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 2fr;
+    margin: 115px 70px 0px 70px;
+    align-items: center;
+    padding: 0rem 0rem 3rem 0rem;
+  }
+  /* .green-box2 {
+    background-color: hwb(49 29% 45% / 0.5);
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    margin-top: 5rem;
+    padding: 4rem 7rem 5rem 4rem;
+  } */
 
   .green-box img {
     max-width: 1fr;
@@ -367,8 +383,6 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: top;
   }
 
   .contact-us {
@@ -378,6 +392,44 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: top;
+  }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+    font-family: "Roboto condensed";
+    font-size: 14px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__input {
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
+    max-width: 300px;
+  }
+
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto condensed";
+    font-size: 14px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .your-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    height: 100px;
+    max-width: 500px;
   }
 
   .header-box p {
@@ -501,6 +553,16 @@
   }
 
   .green-box {
+    background-color: hwb(49 29% 45% / 0.5);
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .green-box2 {
     background-color: hwb(49 29% 45% / 0.5);
     display: flex;
     flex-direction: column;
