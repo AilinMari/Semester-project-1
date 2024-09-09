@@ -126,6 +126,28 @@
     margin-bottom: 5rem;
     margin-right: 3rem;
   }
+
+  .header-box-black p {
+    max-width: max-content;
+    margin-bottom: 5rem;
+    margin-right: 3rem;
+  }
+
+  .header-box-black h4 {
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  .p-p {
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: top;
+    color: white;
+  }
+
   .info-text {
     margin-top: 8rem;
     font-family: "Roboto condensed";
@@ -190,6 +212,10 @@
 
   main img {
     max-width: 100%;
+  }
+
+  .privacy-terms img {
+    margin-top: 115px;
   }
 
   main {
@@ -379,6 +405,15 @@
     display: none;
   }
 
+  .active {
+    background-color: #8c2214;
+    padding: 0.2rem;
+  }
+  nav a:hover {
+    background-color: #8c2214;
+    padding: 0.2rem;
+  }
+
   .logo img {
     display: none;
   }
@@ -461,6 +496,27 @@
     align-items: center;
     flex-direction: column;
     max-width: fit-content;
+  }
+
+  .header-box-black p {
+    max-width: max-content;
+    margin-bottom: 5rem;
+    margin-right: 3rem;
+  }
+
+  .header-box-black h4 {
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  .p-p {
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: top;
+    color: white;
   }
 
   main h3 {
