@@ -6,10 +6,23 @@
     margin: 0px 70px 0px 70px;
   }
 
+  nav a {
+    text-decoration: none;
+  }
+
   .navbar {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
+  }
+
+  .active {
+    text-decoration: underline;
+    text-decoration-color: #8c2214;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8c2214;
   }
 
   .header-pic h1 {
@@ -26,7 +39,6 @@
   }
   .navbar a {
     font-family: "inter";
-    text-decoration: none;
     color: black;
     font-weight: 600;
     font-size: 20px;
