@@ -419,11 +419,9 @@
 
   .active {
     background-color: #8c2214;
-    padding: 0.2rem;
   }
   nav:hover {
     background-color: #8c2214;
-    padding: 0.2rem;
   }
 
   .logo img {
