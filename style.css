@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,7 +13,7 @@
   .navbar {
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 5vw;
   }
 
   .active {
@@ -25,23 +25,11 @@
     text-decoration-color: #8c2214;
   }
 
-  .header-pic h1 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: lighter;
-    font-style: italic;
-    position: absolute;
-    color: white;
-    font-size: 5rem;
-    margin-left: 16rem;
-    margin-top: 8rem;
-    max-width: fit-content;
-    max-height: fit-content;
-  }
   .navbar a {
     font-family: "inter";
     color: black;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.4vw;
   }
 
   .menu-icon {
@@ -54,7 +42,7 @@
 
   header h1 {
     font-family: "chathura", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 48px;
+    font-size: 4vw;
     color: black;
     margin-top: -1.5rem;
     max-width: max-content;
@@ -169,18 +157,18 @@
   }
 
   main h3 {
-    font-size: 36px;
+    font-size: 2.5vw;
   }
 
   main h1 {
     font-family: "Roboto condensed";
-    font-size: 60px;
+    font-size: 3vw;
     margin-left: 3rem;
   }
 
   main h4 {
     font-family: "Roboto condensed";
-    font-size: 24px;
+    font-size: 1.8vw;
   }
 
   .exhibition-spaces {
@@ -202,13 +190,13 @@
 
   main h2 {
     font-family: "Roboto condensed";
-    font-size: 36px;
+    font-size: 2.5vw;
     max-width: 60%;
   }
 
   main p {
     font-family: "inter";
-    font-size: 24px;
+    font-size: 1.8vw;
     max-width: 60%;
   }
 
@@ -291,14 +279,6 @@
     align-items: center;
     padding: 0rem 0rem 3rem 0rem;
   }
-  /* .green-box2 {
-    background-color: hwb(49 29% 45% / 0.5);
-    display: flex;
-    flex-direction: column;
-    max-width: max-content;
-    margin-top: 5rem;
-    padding: 4rem 7rem 5rem 4rem;
-  } */
 
   .green-box img {
     max-width: 1fr;
@@ -312,6 +292,10 @@
     color: white;
   }
 
+  .footer-logo img {
+    max-width: 5rem;
+  }
+
   .footer-test {
     display: grid;
     align-items: center;
@@ -323,7 +307,7 @@
     max-width: 800px;
     margin: 0px 70px 0px 70px;
     font-family: "Roboto condensed";
-    font-size: 20px;
+    font-size: 1.5vw;
   }
 
   li {
@@ -331,7 +315,7 @@
   }
 
   footer h3 {
-    font-size: 24px;
+    font-size: 1.6vw;
     max-width: fit-content;
   }
 
@@ -365,13 +349,13 @@
   footer h1 {
     color: white;
     font-family: "chathura", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 48px;
+    font-size: 3vw;
     margin-top: -1.5rem;
     max-width: fit-content;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   header {
     background-color: black;
   }
@@ -380,7 +364,7 @@
     display: block;
     background-color: black;
     font-family: "Roboto condensed";
-    font-size: 20px;
+    font-size: 2.5vw;
     position: absolute;
     z-index: 2;
   }
@@ -406,7 +390,7 @@
   }
 
   .menu-icon i {
-    font-size: 36px;
+    font-size: 4vw;
     color: white;
     background-color: black;
     padding: 5px 7px 5px 7px;
@@ -420,7 +404,7 @@
   .active {
     background-color: #8c2214;
   }
-  nav:hover {
+  nav a:hover {
     background-color: #8c2214;
   }
 
@@ -456,7 +440,7 @@
     grid-template-columns: 1fr 1fr;
     margin-left: 3rem;
     font-family: "Roboto condensed";
-    font-size: 14px;
+    font-size: 2vw;
   }
 
   .name {
@@ -467,7 +451,7 @@
   .form__input {
     border-radius: 5px 5px 5px 5px;
     height: 25px;
-    max-width: 300px;
+    max-width: 10rem;
   }
 
   .contact-text {
@@ -475,7 +459,7 @@
     flex-direction: column;
     justify-content: center;
     font-family: "Roboto condensed";
-    font-size: 14px;
+    font-size: 2vw;
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -530,12 +514,12 @@
   }
 
   main h3 {
-    font-size: 14px;
+    font-size: 3.5vw;
   }
 
   main h1 {
     font-family: "Roboto condensed";
-    font-size: 20px;
+    font-size: 3vw;
     margin-left: 3rem;
     margin-top: 2rem;
   }
@@ -556,27 +540,16 @@
     align-items: center;
     margin-top: 115px;
   }
-  .header-pic h1 {
-    font-family: "Roboto condensed";
-    font-size: 25px;
-    color: white;
-    font-style: italic;
-    font-weight: 100;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    position: absolute;
-    z-index: 1;
-  }
 
   main h2 {
     font-family: "Roboto condensed";
-    font-size: 20px;
+    font-size: 2.5vw;
     max-width: 80%;
   }
 
   main p {
     font-family: "inter";
-    font-size: 12px;
+    font-size: 1.8vw;
     max-width: 80%;
   }
 
@@ -664,13 +637,18 @@
     color: white;
   }
 
+  .footer-logo img {
+    max-width: 3rem;
+    margin-bottom: 0.7rem;
+  }
+
   footer a {
     display: inline;
   }
   .footer-columns {
     margin: 0px 20px 0px 20px;
     font-family: "Roboto condensed";
-    font-size: 12px;
+    font-size: 1.5vw;
   }
 
   li {
@@ -678,7 +656,7 @@
   }
 
   footer h3 {
-    font-size: 14px;
+    font-size: 1.6vw;
   }
 
   .email {
@@ -711,7 +689,7 @@
   footer h1 {
     color: white;
     font-family: "chathura", "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 20px;
+    font-size: 3vw;
     margin-top: -1.5rem;
   }
 }
