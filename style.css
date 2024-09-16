@@ -442,7 +442,7 @@
     grid-template-columns: 1fr 1fr;
     margin-left: 3rem;
     font-family: "Roboto condensed";
-    font-size: 16px;
+    font-size: 16px 14px;
   }
 
   .name {
