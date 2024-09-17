@@ -53,10 +53,6 @@
     max-width: fit-content;
   }
 
-  /* .mini-logo img {
-    display: none;
-  } */
-
   .logo img {
     max-width: 5rem;
     margin-top: 20px;
@@ -427,11 +423,6 @@
   .logo img {
     display: none;
   }
-
-  /* .mini-logo img {
-    max-width: 3rem;
-    margin-top: 1vw;
-  } */
 
   nav h1 {
     display: none;
