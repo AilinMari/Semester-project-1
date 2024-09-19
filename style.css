@@ -148,6 +148,20 @@
     color: white;
   }
 
+  .privacy-terms-doc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .placement {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin-top: 115px;
+  }
+
   .info-text {
     margin: 8rem 5rem 0rem 5rem;
     font-family: "Roboto condensed";
@@ -206,10 +220,6 @@
 
   main img {
     max-width: 100%;
-  }
-
-  .privacy-terms img {
-    margin-top: 300px;
   }
 
   main {
