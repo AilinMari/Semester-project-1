@@ -107,7 +107,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     margin-left: 3rem;
     max-width: 30vw;
@@ -161,12 +161,11 @@
 
   .info-text {
     margin: 8rem 5rem 0rem 5rem;
-    font-family: "Roboto condensed";
-    /* max-width: 800px; */
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .info-text2 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -184,13 +183,13 @@
   }
 
   main h1 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 60px;
     margin-left: 10vw;
   }
 
   main h4 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
   }
 
@@ -203,13 +202,13 @@
   }
 
   main h2 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 36px;
     max-width: 60%;
   }
 
   main p {
-    font-family: "inter";
+    font-family: "inter", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
     max-width: 60%;
     line-height: 1.5;
@@ -315,7 +314,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0px 70px 0px 70px;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     gap: 15vw;
   }
@@ -379,7 +378,7 @@
   #menu-checkbox:checked ~ nav {
     display: block;
     background-color: black;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     position: absolute;
     z-index: 2;
@@ -456,7 +455,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 3rem;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px 14px;
   }
 
@@ -475,7 +474,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 14px;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -509,12 +508,12 @@
 
   .info-text {
     margin-top: 3rem;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     margin-left: 2rem;
   }
 
   .info-text2 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     display: flex;
     justify-content: top;
     align-items: center;
@@ -544,14 +543,14 @@
   }
 
   main h1 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 48px;
     margin-left: 3rem;
     margin-top: 2rem;
   }
 
   main h2 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 36px;
     max-width: 80%;
   }
@@ -561,7 +560,7 @@
   }
 
   main h4 {
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
   }
 
@@ -689,7 +688,7 @@
   }
   .footer-columns {
     margin: 0px 20px 0px 20px;
-    font-family: "Roboto condensed";
+    font-family: "Roboto condensed", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 14px;
   }
 
